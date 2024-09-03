@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando Ajax para consulta de Cep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h2>Consultar Endereço pelo CEP</h2>
+        <label for="cep">Digite o cep:</label>
+        <input type="text" id="cep" placeholder="Ex: 01000100">
+        <button id="buscarCep">Buscar Endereço</button>
+        
+        <div id="endereco" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Consultar Clima</h2>
+        <label for="cidade">Digite o nome da Cidade: </label>
+        <input type="text" id="cidade" placeholder="Ex: São Paulo">
+        <button id="buscarClima">Buscar Clima</button>
+
+        <div id="clima" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
