@@ -13,7 +13,7 @@ Este projeto simples utiliza **JavaScript** e **AJAX** para fazer consultas de C
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML**: Estrutura básica da página.
-- **CSS**: Estilos simples (opcional, não incluído no exemplo).
+- **CSS**: Estilos simples.
 - **JavaScript**: Lógica para capturar o CEP e cidade, fazer requisições às APIs e exibir os resultados.
 - **AJAX**: Usado para fazer chamadas assíncronas às APIs.
 - **APIs**:
